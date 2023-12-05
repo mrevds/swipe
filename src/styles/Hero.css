@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;1,400&family=Prompt:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&display=swap');
+
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.left-hero{
+    display: flexbox;
+    flex-direction: column;
+    position: relative;
+    right: -150px;
+    top: -100px;
+    z-index: 2;
+}
+
+.left-hero h1{
+    color: #1A1930;
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88px;
+}
+
+.spiral{
+    position: relative;
+    right: 40px;
+    bottom: 100px;
+    z-index: -1;
+    width: 950px;
+    height: 1062px; 
+}
+
+.left-hero h3{
+    color: #2D2B5C;
+    font-family: Prompt;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+}
+
+.left-hero button{
+    width: 217px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #6259EA;
+    color: white;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    width: 25px;
+    height: 25px;
+    gap: 15px;
+    position: relative;
+    top: 650px;
+    right: 180px;
+}
+.right-hero{
+    display: flex;
+}
+.lastline{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-top: 140px;
+}
+.lastline h1{
+    color: #1A1930;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-transform: uppercase;
+}
+.square{
+    content: '';
+    background-color: #EA5959;
+    width: 14px;
+    height: 14px;
+}

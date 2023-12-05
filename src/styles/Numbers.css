@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&display=swap');
+
+
+.numbers{
+    display: flex;
+}
+
+.column-left h1{
+    color: #1A1930;
+    font-family: Prompt;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    margin: 0;
+}
+
+.column-left{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.column-left h5{
+    color: #2D2B5C;
+    font-family: Prompt;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.2px;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.price{
+    color: #2D2B5C;
+    text-align: right;
+    font-family: Prompt;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 112px;
+}
+
+.right-numbers{
+    display: flex;
+    flex-direction: column;
+}
+
+.numbers-column{
+    display: flex;
+    justify-content: space-between;
+    gap: 140px;
+    margin-left: 140px;
+    align-items: center;
+    border-top: 1px solid #E7E5FF;
+    width: 750px;
+    height: 172px;
+    flex-shrink: 0;
+}
+
+.numbers-column:nth-of-type(3){
+    border-bottom: 1px solid #E7E5FF;
+
+
+}
+
+.left-numbers h5{
+    color: #2D2B5C;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.2px; /* 148.235% */
+    text-transform: uppercase;
+    position: relative;
+    bottom: 100px;
+}
+
+.left-numbers h1{
+    color: #2D2B5C;
+    font-family: Poppins;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 77px;
+    position: relative;
+    bottom: 190px;
+}
+
+.d3{
+    position: relative;
+    z-index: -1;
+    bottom: 500px;
+    right: 50px;
+}
+
+.left-numbers{
+    display: flex;
+    flex-direction: column;
+}

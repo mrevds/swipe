@@ -1,0 +1,10 @@
+.banner{
+    display: flex;
+    justify-content: space-between;
+    background-color: #8680f9;
+    padding: 66px 96px;
+    border-radius: 12px;
+    z-index: -2;
+    position: relative;
+    bottom: 160px;
+}
